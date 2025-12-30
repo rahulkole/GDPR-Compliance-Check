@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Vector DB
+data/chroma_gdpr/
+data/chroma_user/
+
+# Uploaded files
+data/temp/
+
+# OS
+.DS_Store
