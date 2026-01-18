@@ -6,20 +6,20 @@ Analyze company privacy policies and identify potential GDPR compliance gaps usi
 
 ## Overview
 
-This project implements a **Retrieval-Augmented Generation (RAG)** system to analyze privacy policy documents (PDFs or website URLs). It extracts, chunks, and embeds the text, searches relevant GDPR articles from a local Chroma vector database, and generates **context-aware compliance insights** using a **Groq-hosted LLaMA 3.1 model**.
+This project implements a **Retrieval-Augmented Generation (RAG)** system to analyze privacy policy documents (PDFs or website URLs). It extracts, chunks, and embeds the text, searches relevant GDPR articles from a local Chroma vector database, and generates context-aware compliance insights using a Groq-hosted LLaMA 3.1 model.
 
-It is designed to help companies, legal teams, and auditors quickly spot **potential GDPR gaps** in privacy policies, all via an **interactive Streamlit web interface**.
+It is designed to help companies, legal teams, and auditors quickly spot **potential GDPR gaps** in privacy policies, all via a Streamlit web interface.
 
 ---
 
 ## Key Features
 
 - Upload **Privacy Policy PDFs** or provide a **website URL**
-- Automatic **text extraction** and **structured legal chunking**
-- **Semantic search** over official GDPR texts
-- **AI-generated compliance gap analysis** with references to GDPR articles
-- **Interactive web interface** using Streamlit for easy exploration
-- Stores and queries **vector embeddings** using Chroma
+- Automatic text extraction and structured legal chunking
+- Semantic search over official GDPR texts
+- AI-generated compliance gap analysis with references to GDPR articles
+- A web interface using Streamlit for easy exploration
+- Stores and queries vector embeddings using Chroma
 
 ---
 
@@ -78,7 +78,7 @@ streamlit run app.py
 3. **Run Compliance Check**  
    - Retrieves relevant GDPR articles  
    - Generates an AI-driven compliance analysis  
-   - Displays **source references** and **summary analysis**  
+   - Displays **source references** and summary analysis  
 
 ---
 
@@ -94,12 +94,12 @@ streamlit run app.py
 
 3. **RAG-based Compliance Analysis**  
    - **Groq LLaMA 3.1** retrieves relevant GDPR context  
-   - Generates structured insights highlighting **compliance gaps** with citations
+   - Generates structured insights highlighting compliance gaps with citations
 
 4. **Streamlit Interface**  
    - Upload PDF / URL  
    - Run analysis  
-   - View **AI-generated summary** + retrieved GDPR references
+   - View AI-generated summary + retrieved GDPR references
 
 ---
 
